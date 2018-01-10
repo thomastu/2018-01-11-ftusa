@@ -39,8 +39,6 @@
         {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}
         <li><a href="{{ page.root }}{% link setup.md %}">Setup</a></li>
-
-	{% endif %}
 	      
 	{% comment %} Show lesson episodes for lessons. {% endcomment %}
         <li class="dropdown">
@@ -53,7 +51,8 @@
             <li><a href="{{ page.root }}{% link aio.md %}">All in one page (Beta)</a></li>
           </ul>
         </li>
-
+	{% endif %}
+	      
 	{% comment %} Show extras for lessons or if this is the main workshop-template repo (where they contain documentation). {% endcomment %}
 	{% if site.kind == "lesson" %}
         <li class="dropdown">
