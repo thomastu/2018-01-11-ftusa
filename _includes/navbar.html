@@ -40,7 +40,9 @@
 	{% comment %} Show setup instructions. {% endcomment %}
         <li><a href="{{ page.root }}{% link setup.md %}">Setup</a></li>
 
-        {% comment %} Show lesson episodes for lessons. {% endcomment %}
+	{% endif %}
+	      
+	{% comment %} Show lesson episodes for lessons. {% endcomment %}
         <li class="dropdown">
           <a href="{{ page.root }}/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Episodes <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -51,7 +53,6 @@
             <li><a href="{{ page.root }}{% link aio.md %}">All in one page (Beta)</a></li>
           </ul>
         </li>
-	{% endif %}
 
 	{% comment %} Show extras for lessons or if this is the main workshop-template repo (where they contain documentation). {% endcomment %}
 	{% if site.kind == "lesson" %}
