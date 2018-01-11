@@ -44,7 +44,7 @@ dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_
 dc_post_survey: "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am)
-start_time: 0
+start_time: 540
 
 # Specify that things in the episodes collection should be output.
 collections:
@@ -73,3 +73,5 @@ exclude:
 
 # Turn off built-in syntax highlighting.
 highlighter: false
+
+jupyterhub: "https://ftusa-wkshop.thomastu.io"
