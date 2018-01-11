@@ -64,7 +64,7 @@ defaults:
       type: episodes
     values:
       layout: episode
-      root: ..
+      root: ../..
 
 # Files and directories that are not to be copied.
 exclude:
