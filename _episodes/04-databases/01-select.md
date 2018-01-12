@@ -55,7 +55,7 @@ but that handful accounts for most of what scientists do.
 > enter into the SQLite console.  So, open up a terminal, and run
 >
 > ~~~
-> $ cd /path/to/survey/data/
+> $ wget https://github.com/swcarpentry/sql-novice-survey/raw/gh-pages/files/survey.db -O $HOME/survey.db -O $HOME
 > $ sqlite3 survey.db
 > ~~~
 > {: .bash}

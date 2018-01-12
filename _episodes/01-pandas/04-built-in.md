@@ -285,7 +285,7 @@ result of print is None
 > > ~~~
 > > {: .output}
 > > 
-> > 2. It throws a TypeError. The command is trying to run `max(4, 'tin')` and you can't compare
+> > \2. It throws a TypeError. The command is trying to run `max(4, 'tin')` and you can't compare
 > >    a string and an integer
 > {: .solution}
 {: .challenge}
